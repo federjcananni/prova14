@@ -599,14 +599,14 @@ pre code {
 @media (min-width: 576px) {
   .container-sm,
   .container {
-    max-width: 540px;
+    max-width: 540px !important;
   }
 }
 @media (min-width: 768px) {
   .container-md,
   .container-sm,
   .container {
-    max-width: 720px;
+    max-width: 720px !important;
   }
 }
 @media (min-width: 992px) {
@@ -614,7 +614,7 @@ pre code {
   .container-md,
   .container-sm,
   .container {
-    max-width: 960px;
+    max-width: 960px !important;
   }
 }
 @media (min-width: 1200px) {
@@ -623,7 +623,7 @@ pre code {
   .container-md,
   .container-sm,
   .container {
-    max-width: 1140px;
+    max-width: 1140px !important;
   }
 }
 .row {
